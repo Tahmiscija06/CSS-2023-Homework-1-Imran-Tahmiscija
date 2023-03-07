@@ -6,7 +6,7 @@ const questions = [
     b: "Coding Style Sheets",
     c: "Cascading Simple Sheets",
     d: "Cars SUVs & Sailboats",
-    e: "Coding Source Sites"
+    e: "Coding Source Sites",
     correct: "a",
   },
   {
@@ -35,7 +35,7 @@ const questions = [
    d: "Porsche",
    e: "Ferrari",
    correct: "d",
-   } 
+   }, 
    {
     question: "Which SmartPhone is the best on te world?",
     a: "Samsung",
@@ -55,6 +55,7 @@ const a_text = document.getElementById("a_text");
 const b_text = document.getElementById("b_text");
 const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
+const e_text = document.getElementById("e_text");
 const submitButton = document.getElementById("submit");
 
 //Counters
@@ -84,6 +85,7 @@ const loadQuiz = () => {
   b_text.innerText = currentQuizData.b;
   c_text.innerText = currentQuizData.c;
   d_text.innerText = currentQuizData.d;
+  e_text.innerText = currentQuizData.e;
 };
 
 //Loading the quiz
