@@ -6,6 +6,7 @@ const questions = [
     b: "Coding Style Sheets",
     c: "Cascading Simple Sheets",
     d: "Cars SUVs & Sailboats",
+    e: "Coding Source Sites"
     correct: "a",
   },
   {
@@ -14,6 +15,7 @@ const questions = [
     b: "2021",
     c: "2022",
     d: "2023",
+    e: "2017",
     correct: "b",
   },
   {
@@ -21,9 +23,28 @@ const questions = [
     a: "Bosnia and Herzegovina Famous Foundation",
     b: "Bosnia and Herzegovina Futures Foundation",
     c: "Bosnia and Herzegovina Factory Foundation",
-    d: "none of the above",
+    d: "Bosnia and Herzegovina Forest Foundation",
+    e: "non of the above",
     correct: "b",
   },
+  {
+   question: "Which car is the best on the world?",
+   a: "BMW",
+   b: "Audi",
+   c: "Mercedes",
+   d: "Porsche",
+   e: "Ferrari",
+   correct: "d",
+   } 
+   {
+    question: "Which SmartPhone is the best on te world?",
+    a: "Samsung",
+    b: "Huawei",
+    c: "Sony",
+    d: "HTC",
+    e: "Xiaomi",
+    correct: "a",
+   }
 ];
 
 //Fetching the HTML elements
