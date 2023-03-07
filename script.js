@@ -44,7 +44,7 @@ const questions = [
     d: "HTC",
     e: "Xiaomi",
     correct: "a",
-   }
+   },
 ];
 
 //Fetching the HTML elements
